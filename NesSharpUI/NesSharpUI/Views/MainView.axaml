@@ -1,0 +1,46 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:NesSharpUI.ViewModels"
+             xmlns:controls="clr-namespace:NesSharpUI.Controls"
+             x:Class="NesSharpUI.Views.MainView"
+             x:DataType="vm:MainViewModel"
+             Focusable="True">
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainViewModel />
+    </Design.DataContext>
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open..." Click="OpenCommand"/>
+                <Separator />
+                <MenuItem Header="_Exit" />
+            </MenuItem>
+        </Menu>
+        <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center">A - Z, B - X, Start - Q, Select - W</TextBlock>
+        <Panel
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+        >
+            <Border Background="Gainsboro"
+                    BorderBrush="Red"
+                    BorderThickness="2"
+                    CornerRadius="3"
+                    Padding="10" 
+                    Margin="10">
+                <controls:SimpleImageViewer
+                    Name="Frame"
+                    Source="{CompiledBinding FrameSurface}"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                />
+            </Border>
+        </Panel>
+        
+    </DockPanel>
+
+</UserControl>

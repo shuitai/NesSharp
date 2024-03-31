@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NesSharp", "NesSharp\NesSharp.csproj", "{2ABA4318-3368-479F-A406-FC32A7752249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NesSharpUI", "NesSharpUI\NesSharpUI\NesSharpUI.csproj", "{5BC0C072-787D-4615-A424-C9943812AE63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NesSharpUI.Android", "NesSharpUI\NesSharpUI.Android\NesSharpUI.Android.csproj", "{666815F9-F1DC-4FBB-B7B4-C3BFE3E87695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NesSharpUI.Desktop", "NesSharpUI\NesSharpUI.Desktop\NesSharpUI.Desktop.csproj", "{D7C2F285-F3E5-4EB6-BB5F-4FCA107CE9B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NesSharpUI.iOS", "NesSharpUI\NesSharpUI.iOS\NesSharpUI.iOS.csproj", "{A24DAEA7-2ABA-4513-B9AF-B3E2B4194AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NesSharpUI.Browser", "NesSharpUI\NesSharpUI.Browser\NesSharpUI.Browser.csproj", "{1393E702-8FBF-433B-A626-721957F740E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ABA4318-3368-479F-A406-FC32A7752249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABA4318-3368-479F-A406-FC32A7752249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABA4318-3368-479F-A406-FC32A7752249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABA4318-3368-479F-A406-FC32A7752249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC0C072-787D-4615-A424-C9943812AE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC0C072-787D-4615-A424-C9943812AE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC0C072-787D-4615-A424-C9943812AE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC0C072-787D-4615-A424-C9943812AE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666815F9-F1DC-4FBB-B7B4-C3BFE3E87695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666815F9-F1DC-4FBB-B7B4-C3BFE3E87695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666815F9-F1DC-4FBB-B7B4-C3BFE3E87695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666815F9-F1DC-4FBB-B7B4-C3BFE3E87695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C2F285-F3E5-4EB6-BB5F-4FCA107CE9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C2F285-F3E5-4EB6-BB5F-4FCA107CE9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C2F285-F3E5-4EB6-BB5F-4FCA107CE9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C2F285-F3E5-4EB6-BB5F-4FCA107CE9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24DAEA7-2ABA-4513-B9AF-B3E2B4194AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24DAEA7-2ABA-4513-B9AF-B3E2B4194AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24DAEA7-2ABA-4513-B9AF-B3E2B4194AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1393E702-8FBF-433B-A626-721957F740E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1393E702-8FBF-433B-A626-721957F740E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1393E702-8FBF-433B-A626-721957F740E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1393E702-8FBF-433B-A626-721957F740E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAD26688-995A-4B20-954F-F5A8BB19DC09}
+	EndGlobalSection
+EndGlobal
