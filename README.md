@@ -1,9 +1,10 @@
 # NesSharp
 A Nintendo Entertainment System (NES) emulator written in C#.
 
-![alt text](.\doc\imgs\1.png)
-![alt text](.\doc\imgs\2.png)
-![alt text](.\doc\imgs\3.png)
+# Samples
+![alt text](./doc/imgs/1.png "Super mario brothers")
+![alt text](./doc/imgs/2.png "Super Mario Bros 3 (USA)")
+![alt text](./doc/imgs/3.png "Contra")
 
 # Controls
 
